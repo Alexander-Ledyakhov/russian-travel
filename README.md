@@ -11,4 +11,4 @@
 * Из особенностей в лендинге используется grid, @media и flex.
 
 
-[Ссылка на GitHub Pages]()
+[Ссылка на лендинг «Путешествие по России»](https://alexander-ledyakhov.github.io/russian-travel/index.html)
