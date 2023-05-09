@@ -3,4 +3,9 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
+  transition: opacity 1s;
+}
+
+.link:hover {
+  opacity: 0.8;
 }
