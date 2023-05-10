@@ -1,6 +1,32 @@
 .cover__link {  
   width: 100%;
   height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  aspect-ratio: 8/5;
+}
+
+.cover__link::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
   position: absolute;
-  z-index: 3;
+  top: 0;
+  right: 0;
+  opacity: 0.3;
+  transition: opacity 1s;
+  z-index: -1;
+  background-size: fill;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
 }

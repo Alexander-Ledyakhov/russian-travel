@@ -2,8 +2,6 @@
   width: 360px;
   font-size: 18px;
   line-height: 122%;
-  position: relative;
-  z-index: 2;
 }
 
 @media screen and (max-width: 767px) {

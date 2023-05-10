@@ -1,7 +1,7 @@
 .subtitle {
   margin: 32px auto 0px;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
